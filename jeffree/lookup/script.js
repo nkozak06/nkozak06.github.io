@@ -75,7 +75,7 @@ prod74 = {name: "Impeccable Blurring Second-Skin Matte Foundation", approved: "Y
 prod75 = {name: "Make Me Blush Powder", approved: "Yes", brand: "YSL", reviewed: "01/08/2025", type: "Powder", link: "https://www.tiktok.com/@jeffreestar/video/7457667367171050798"},
 prod76 = {name: "Parure Gold Skin Matte Foundation", approved: "No", brand: "Guerlain", reviewed: "01/06/2025", type: "Foundation", link: "https://www.tiktok.com/@jeffreestar/video/7456930217727135019"},
 prod77 = {name: "Maxi-Volume 4-in-1 Eyelash Mascara", approved: "Yes", brand: "Prosa", reviewed: "01/04/2025", type: "Mascara", link: "https://www.tiktok.com/@jeffreestar/video/7456176413696150830"},
-prod78 = {name: "Lip Liner Stay-N", approved: "Yes", brand: "Sacheu", reviewed: "01/03/2025", type: "Lips", link: "https://www.tiktok.com/@jeffreestar/video/7455805772182785326"},
+prod78 = {name: "Lip Liner Stay-N", approved: "Yes", brand: "Sacheu", reviewed: "01/03/2025", type: "Lip Liner", link: "https://www.tiktok.com/@jeffreestar/video/7455805772182785326"},
 prod79 = {name: "B Structural Volumizing + Lengthening Mascara", approved: "Yes", brand: "Haus Labs", reviewed: "01/02/2025", type: "Mascara", link: "https://www.tiktok.com/@jeffreestar/video/7455440640361418030"};
 
 // {name: "", approved: "", brand: "", reviewed: "", type: "", link: ""}
