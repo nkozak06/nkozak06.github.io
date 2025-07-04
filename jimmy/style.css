@@ -1,0 +1,144 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: hidden;
+    position: relative;
+    font-family: Sour Gummy;
+}
+
+html {
+    overflow: hidden;
+}
+
+#blockl, #blockr {
+    width: 12.5vw;
+    height: 100vh;
+    background: black;
+    z-index: 1;
+}
+
+#blockl {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+#blockr {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+#container {
+    width: 75vw;
+    height: 75vh;
+    background: rgb(0, 61, 24);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    line-height: 8vh;
+    font-size: 5vw;
+    border-radius: 15px;
+}
+
+#align {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    height: fit-content;
+}
+
+label {
+    display: inline-block;
+    width: 80%;
+    background-image: linear-gradient(45deg, rgb(9, 162, 42), rgb(11, 136, 38), rgb(214, 214, 214), rgb(214, 214, 214));
+    background-size: 200% 200%;
+    color: transparent;
+    background-clip: text;
+    -webkit-animation: Animation 3s ease infinite;
+    -moz-animation: Animation 3s ease infinite;
+    animation: Animation 3s ease infinite;
+}
+
+input {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    font-family: inherit;
+    border-radius: 10px;
+}
+
+button, input {
+    border: none;
+}
+
+button {
+    font-family: inherit;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+input:focus {
+    background: rgb(9, 162, 42);
+    transform: scale(1.2);
+}
+
+span {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(9, 162, 42), rgb(11, 136, 38), rgb(214, 214, 214), rgb(214, 214, 214));
+    background-size: 200% 200%;
+    color: transparent;
+    background-clip: text;
+    -webkit-animation: Animation 3s ease infinite;
+    -moz-animation: Animation 3s ease infinite;
+    animation: Animation 3s ease infinite;
+}
+
+#coverr, #coverl {
+    background: rgb(0, 61, 24);
+    width: 50%;
+    height: 30%;
+    transition: all 1.5s ease;
+}
+
+#coverr {
+    left: 49%;
+}
+
+p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    text-align: center;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
